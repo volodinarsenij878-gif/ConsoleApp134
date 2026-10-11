@@ -1,0 +1,18 @@
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    namespace Program91
+    {
+    internal class Program
+    {
+        static void Main()
+        {
+            bool result = (25 % 4 == 1) && (17 / 3 == 5) && (17 % 3 == 2);
+            Console.WriteLine(result); // True
+        }
+    }
+    }
+
